@@ -14,7 +14,7 @@ format:
             border-top: 1px solid #e6e6e6;
           }
 
-          .pubs { list-style: none; padding: 0; margin: 1rem 0rem 0rem 2rem; }
+          .pubs { list-style: none; padding: 0; margin: 1rem 2rem 2rem 2rem; }
           .paper  { margin: .5rem 0rem 0.1rem 0rem; line-height: 1.45; }
 
           /* Title line */
