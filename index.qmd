@@ -45,7 +45,8 @@ I hold a B.S. in Mathematics from Yuanpei College, Peking University (2014). Bef
 
 <div class="section-title"></i> Research Interests</div>
 I study how algorithms learn, optimize, and interact within complex operational environments. One line of my research develops efficient and provably near-optimal algorithms for \n
-sequential decision-making under uncertainty, spanning problems like optimal stopping, online resource allocation and dynamic matching. More recently, I have become interested in algorithmic interventions\n
+sequential decision-making under uncertainty, spanning problems like optimal stopping, online resource allocation and dynamic matching.<br>
+More recently, I have become interested in algorithmic interventions\n
 in interactive settings such as online marketplaces or service platforms. My works design novel mechanisms that \n
 internalize reactive feedback from platform participants to achieve system-wide efficiency, and shed light on the (often unintended) consequences of algorithmic adaptivity once deployed.
 <br>
