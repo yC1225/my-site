@@ -82,7 +82,7 @@ format:
     "abstract": "We characterize a joint CLT of the number of pulls and the sample mean reward of the arms in a stochastic two-armed bandit environment under UCB algorithms. Several implications of this result are in place: (1) a nonstandard CLT of the number of pulls hence pseudo-regret that smoothly interpolates between a standard form in the large arm gap regime and a slow-concentration form in the small arm gap regime, and (2) a heuristic derivation of the sample bias up to its leading order from the correlation between the number of pulls and sample means. Our analysis framework is based on a novel perturbation analysis, which is of broader interest on its own."
   },
   {
-    "title": "Managing Newsvendors: A Demand Meachanism",
+    "title": "Managing Newsvendors: A Demand Mechanism",
     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4727705",
     "authors": "Jiaqi Lu",
     "year": 2024,
