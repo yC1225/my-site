@@ -1,0 +1,46 @@
+/* External CSS (optional; inline safety styles above already ensure rendering) */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  line-height: 1.6;
+}
+
+/* Ensure images never overflow the column/container */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 2rem;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+.headshot-rect {
+  width: 200px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px; /* rectangular with subtle rounding */
+  display: block;
+}
+
+.name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+}
+
+.appointment { margin: 0 0 0.75rem 0; }
+.intro { margin-top: 2rem; max-width: 720px; line-height: 1.7; }
+
+@media (max-width: 720px) {
+  .profile { grid-template-columns: 1fr; }
+  .headshot-rect { width: 160px; margin: 0 auto; }
+}

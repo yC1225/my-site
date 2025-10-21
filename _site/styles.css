@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;500;600;700&family=Rubik:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap');
+
+
+
+a {
+  text-decoration: none;
+  color: #0b4bb3;
+}
+
+a:hover {
+  text-decoration: underline; /* or remove this line if you never want underlines */
+}
+
+h1, h2, h3, .section-title, .name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  letter-spacing: 0.5px;
+}
+
+/* === Font imports (must come first) === */
+
+/* === Base typography === */
+
+/* Optional: titles use the serif for distinction */
+.title a,
+.sec {
+  font-family: "Kanit", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+}
+
+body {
+  font-family: "Source Sans 3",-apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  max-width: 1500px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+  line-height: 1.6;
+}
+
+/* two-column layout */
+.profile {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 2rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+.headshot-rect {
+  width: 200px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: block;
+}
+
+.name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.appointment {
+  margin-bottom: 0.75rem;
+}
+
+.intro {
+  margin-top: 0.5rem;
+  max-width: 1200px;
+  line-height: 1.7;
+}
+
+.research-interests {
+  margin-top: 0.5rem;
+  max-width: 1200px;
+  line-height: 1.5;
+}
+
+/* mobile layout */
+@media (max-width: 720px) {
+  .profile {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .headshot-rect {
+    width: 160px;
+    margin: 0 auto;
+  }
+}
+
+/* Indent all sub-lines under the title (status, awards, teaser, abstract) */
+.paper > .status-line,
+.paper > .awards-wrap,
+.paper > .teaser,
+.paper > .abstract {
+  margin-left: 1.2em;   /* adjust to taste */
+}

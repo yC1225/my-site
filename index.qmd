@@ -1,0 +1,61 @@
+---
+toc: false
+sidebar: false
+format:
+  html:
+    css: styles.css   # make sure this file sits next to this qmd
+---
+
+<!-- Two-column header -->
+<div class="profile">
+<div class="photo">
+<img src="assets/me.jpg" alt="Yilun Chen" class="headshot-rect">
+</div>
+
+<div class="info">
+[<b><span style="font-family: 'Lora', sans-serif;">Yilun Chen</span><span style="font-family:'LXGW WenKai Mono TC', serif;">（陈逸伦）</span></b>]{style="font-size:1.8rem;"}
+<p class="appointment">
+&nbsp;Assistant Professor<br>
+&nbsp;School of Data Science, CUHK–Shenzhen
+</p>
+<p class="contact"><br>
+<!-- &thinsp;<i class="fa-solid fa-graduation-cap"></i> &thinsp;Ph.D. in Operations Research, Cornell University, 2021<br>  -->
+&nbsp;<i class="fa-solid fa-envelope"></i>&nbsp;
+chenyilun at cuhk dot edu dot cn</a><br>
+&thinsp;&thinsp;&thinsp;<i class="fa-solid fa-location-dot"></i> &thinsp;
+322b Daoyuan Building<br>
+<img src="https://icons.iconarchive.com/icons/academicons-team/academicons/128/google-scholar-icon.png"
+     alt="Google Scholar"
+     style="height:1.4em; width:auto; vertical-align:middle; margin-right:2px;">
+<a href="https://scholar.google.com/citations?user=zay6W5kAAAAJ&hl=en">Google Scholar</a>
+</p>
+
+</div>
+</div>
+
+---
+
+
+<div class="section-title"></i> About</div>
+I am an Assistant Professor in the School of Data Science at the Chinese University of Hong kong, Shenzhen. I received my Ph.D. degree in Operations Research from Cornell in 2021, advised by <a href="https://people.orie.cornell.edu/dag369/">David A. Goldberg </a>.  \n
+I hold a B.S. in Mathematics from Yuanpei College, Peking University (2014). Before joining CUHK-Shenzhen, I spent 2021-2022 as a postdoctoral researcher at Columbia Business School, working with <a href="https://ykanoria.github.io/index.html"> Yash Kanoria </a>. <br> 
+
+
+---
+
+<div class="section-title"></i> Research Interests</div>
+I study how algorithms learn, optimize, and interact within complex operational environments. One line of my research develops efficient and provably near-optimal algorithms for \n
+sequential decision-making under uncertainty, spanning problems like optimal stopping, online resource allocation and dynamic matching. More recently, I have become interested in algorithmic interventions\n
+in interactive settings such as online marketplaces or service platforms. My works design novel mechanisms that \n
+internalize reactive feedback from platform participants to achieve system-wide efficiency, and shed light on the (often unintended) consequences of algorithmic adaptivity once deployed.
+<br>
+ 
+ ---
+
+ <div class="section-title">Selected Awards</div>
+<ul class="clean-list">
+  <li>INFORMS Junior Faculty Interest Group (JFIG) Best Paper Award, 2024</li>
+  <li>Chinese Scholars Association for Management Science and Engineering (CSAMSE) Best Paper Award, 2024</li>
+  <li>INFORMS RMP Jeff McGill Student Paper Award (awarded to Akshit Kumar), 2024</li>
+  <li>INFORMS George Nicholson Student Paper Competition, First Place, 2019</li>
+</ul>
