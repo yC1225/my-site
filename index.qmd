@@ -44,7 +44,8 @@ I hold a B.S. in Mathematics from Yuanpei College, Peking University (2014). Bef
 ---
 
 <div class="section-title"></i> Research Interests</div>
-I study how algorithms learn, optimize, and interact within complex operational environments. One line of my research develops efficient and provably near-optimal algorithms for \n
+I study how algorithms learn, optimize, and interact within complex operational environments.<br><br> 
+One line of my research develops efficient and provably near-optimal algorithms for \n
 sequential decision-making under uncertainty, spanning problems like optimal stopping, online resource allocation and dynamic matching.<br><br>
 More recently, I have become interested \n
 in interactive settings such as online marketplaces or service platforms. My works design novel algorithms and mechanisms that \n
