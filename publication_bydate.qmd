@@ -129,7 +129,7 @@ format:
     "year": 2025,
     "bucket": "Preprint",
     "rank": 3,
-    "status": "Under review.",
+    "status": "Under revision.",
     "teaser": "A constant-time approximation algorithm for online packing under arbitrary dependence.",
     "abstract": "There has been a growing interest in studying online stochastic packing under more general correlation structures, motivated by the complex data sets and models driving modern applications. Several past works either assume correlations are weak or have a particular structure, have a complexity scaling with the number of Markovian 'states of the world' (which may be exponentially large e.g. in the case of full history dependence), scale poorly with the horizon T, or make additional continuity assumptions. Surprisingly, we show that for all 𝜖, the online stochastic packing linear programming problem with general correlations (suitably normalized and with sparse columns) has an approximately optimal policy (with optimality gap $\\epsilon T$) whose per-decision runtime scales as the time to simulate a single sample path of the underlying stochastic process (assuming access to a Monte Carlo simulator), multiplied by a constant independent of the horizon or number of Markovian states.We derive analogous results for network revenue management, and online bipartite matching and independent set in bounded-degree graphs, by rounding. Our algorithms implement stochastic gradient methods in a novel on-the-fly/recursive manner for the associated massive deterministic-equivalent linear program on the corresponding probability space."
   },
