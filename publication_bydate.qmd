@@ -62,6 +62,7 @@ format:
 [
   {
     "title": "Bandit Allocational Instability",
+    "url": "https://arxiv.org/pdf/2602.07472",
     "authors": "Jiaqi Lu",
     "year": 2025,
     "bucket": "Preprint",
