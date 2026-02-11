@@ -73,7 +73,7 @@ format:
   },
   {
     "title": "A Characterization of Sample Adaptivity in UCB Data",
-    "url": "https://arxiv.org/abs/2503.04855",
+    "url": "https://arxiv.org/pdf/2503.04855",
     "authors": "Jiaqi Lu",
     "year": 2025,
     "bucket": "Preprint",
@@ -99,7 +99,7 @@ format:
   },
   {
     "title": "Beyond Non-Degeneracy: Revisiting Certainty Equivalent Heuristic for Online Linear Programming",
-    "url": "https://arxiv.org/abs/2501.01716",
+    "url": "https://arxiv.org/pdf/2501.01716",
     "authors": "Wenjia Wang",
     "year": 2025,
     "bucket": "Preprint",
@@ -111,7 +111,7 @@ format:
   },
   {
     "title": "Beating the Curse of Dimensionality in Optimal Stopping",
-    "url": "https://arxiv.org/abs/1807.02227",
+    "url": "https://arxiv.org/pdf/1807.02227",
     "authors": "David A. Goldberg",
     "year": 2018,
     "bucket": "Preprint",
@@ -126,7 +126,7 @@ format:
   },
   {
     "title": "Online Stochastic Packing with General Correlations",
-    "url": "https://arxiv.org/abs/2508.13458",
+    "url": "https://arxiv.org/pdf/2508.13458",
     "authors": "Sabri Cetin and David A. Goldberg",
     "year": 2025,
     "bucket": "Preprint",
