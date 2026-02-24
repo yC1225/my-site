@@ -162,6 +162,7 @@ format:
     "status": "<i><b>Operations Research</b></i>, forthcoming. <a href='https://doi.org/10.1287/opre.2024.0730'>[link]</a>",
     "awards": [
       { "type": "award", "text": "First Place, 2024 INFORMS RMP Jeff McGill Student Paper Competition (awarded to Akshit Kumar)" },
+      { "type": "award", "text": "Third Place, 2025 Michael H. Rothkopf Junior Research Paper Prize (awarded to Akshit Kumar)" },
       { "type": "other", "text": "Preliminary version in ACM EC'23 <a href='https://dl.acm.org/doi/10.1145/3580507.3597797'>[link]</a> | <a href= 'https://nickarnosti.com/blog/soar/'>Nick Arnosti's blog</a> "}
     ],
     "teaser": "A lightweight MPC-inspired algorithm with near-optimal matching performance.",
