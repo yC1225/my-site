@@ -44,13 +44,11 @@ I hold a B.S. in Mathematics from Yuanpei College, Peking University (2014). Bef
 ---
 
 <div class="section-title"></i> Research Interests</div>
-I study how algorithms learn, optimize, and interact within complex operational environments.<br>
-One line of my research develops efficient and provably near-optimal algorithms for \n
-sequential decision-making under uncertainty, spanning problems like optimal stopping, online resource allocation and dynamic matching.<br>
-More recently, I have become interested \n
-in interactive settings such as online marketplaces or service platforms. My works design novel algorithms and mechanisms that \n
-internalize reactive feedback from platform participants to achieve system-wide efficiency, and shed light on the (often unintended) consequences of algorithmic adaptivity once deployed.
-<br>
+I work in Operations Research, with broad interests at the intersection of Economics, Theoretical Computer Science, and Statistics. My research focuses on how algorithms learn, optimize, and interact in complex operational environments. I develop theoretical models and algorithmic methods using tools from probability and optimization.<br>
+
+One line of my research develops efficient and provably near-optimal algorithms for sequential decision-making under uncertainty, spanning problems such as optimal stopping, online resource allocation, and dynamic matching. <br>
+
+More recently, I have become interested in interactive environments such as online marketplaces and service platforms. My work in this direction designs and analyzes algorithms and mechanisms that internalize the reactive feedback of platform participants to improve system-wide efficiency, while also shedding light on the often unintended consequences of adaptive algorithms once deployed.<br>
  
  ---
 
