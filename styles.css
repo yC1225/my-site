@@ -352,6 +352,7 @@ main.content {
   border: 1px solid var(--line);
   border-radius: 8px;
   box-shadow: var(--shadow);
+  line-height: 0;
   margin: 0;
   overflow: hidden;
 }
