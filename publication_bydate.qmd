@@ -62,18 +62,16 @@ format:
 [
   {
     "title": "Bandit Allocational Instability",
-    "url": "https://arxiv.org/pdf/2602.07472",
     "authors": "Jiaqi Lu",
     "year": 2025,
     "bucket": "Preprint",
     "rank": 1,
     "status": "Working paper.",
-    "teaser": "A fundamental tradeoff between regret and the variability of pull allocation.",
-    "abstract": "When multi-armed bandit (MAB) algorithms allocate pulls among competing arms, the resulting allocation can exhibit huge variation. This is particularly harmful in modern applications such as learning-enhanced platform operations and statistical inference using bandit-collected data. Thus motivated, we introduce a new performance metric of MAB algorithms termed allocation variability, which is the largest (over arms) standard deviation of an arm's number of pulls. We establish a fundamental trade-off between allocation variability and regret, the canonical performance metric of reward maximization. In particular, for any algorithm, the worst-case regret $R_T$ and worst-case allocation variability $S_T$ must satisfy $R_T   S_T=\\Omega(T^{3/2})$ as $T \\to \\infty$, as long as $R_T=o(T)$. This indicates that any minimax regret-optimal algorithm must incur worst-case allocation variability $\\Theta(T)$, the largest possible scale; while any algorithm with sublinear worst-case regret must necessarily incur $S_T= \\omega(\\sqrt{T})$. We further show that this lower bound is essentially tight, and that any point on the Pareto frontier $R_T  S_T=\\Theta(T^{3/2})$ can be achieved (up to a polylogarithmic factor in T) by a simple tunable algorithm UCB-f, a generalization of the classic UCB1. Finally, we discuss implications for platform operations and for statistical inference, when bandit algorithms are used. As a byproduct of our result, we resolve an open question of Praharaj and Khamaru (2025)."
+    "teaser": "A pitfall in adaptive demand allocation and its remedy."
   },
   {
     "title": "A Characterization of Sample Adaptivity in UCB Data",
-    "url": "https://arxiv.org/pdf/2503.04855",
+    "url": "https://arxiv.org/abs/2503.04855",
     "authors": "Jiaqi Lu",
     "year": 2025,
     "bucket": "Preprint",
@@ -84,7 +82,7 @@ format:
     "abstract": "We characterize a joint CLT of the number of pulls and the sample mean reward of the arms in a stochastic two-armed bandit environment under UCB algorithms. Several implications of this result are in place: (1) a nonstandard CLT of the number of pulls hence pseudo-regret that smoothly interpolates between a standard form in the large arm gap regime and a slow-concentration form in the small arm gap regime, and (2) a heuristic derivation of the sample bias up to its leading order from the correlation between the number of pulls and sample means. Our analysis framework is based on a novel perturbation analysis, which is of broader interest on its own."
   },
   {
-    "title": "Managing Newsvendors: A Demand Mechanism",
+    "title": "Managing Newsvendors: A Demand Meachanism",
     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4727705",
     "authors": "Jiaqi Lu",
     "year": 2024,
@@ -94,12 +92,12 @@ format:
     "awards": [
       { "type": "other", "text": "Preliminary version in ACM EC'24 <a href='https://dl.acm.org/doi/10.1145/3670865.3673568'>[link]</a>" }
     ],
-    "teaser": "Demand reshaping is a powerful control lever.",
+    "teaser": "A demand-shifting mechanism that aligns decentralized inventory decisions with platform efficiency.",
     "abstract": "The increasingly prevalent 'fulfillment by platform‘ practice in the digital economy presents platforms with the unique challenge of managing their third-party sellers' autonomous inventory decision-making. In this work, we explore a novel idea to mitigate this challenge through nudging demand among sellers, which reshapes their perceived demand and incentivizes them to make platform-favorable inventory decisions. To this end, we study a stylized Stackelberg game between a platform and a continuum of third-party sellers selling substitutable products on the platform. The platform aims to design a demand nudging policy to maximize her profit, while the sellers, in response, determine their inventory according to the post-nudge demand in a newsvendor manner. We establish in closed form the platform's optimal policy. It employs a simple cut-off structure called defluctuating and resembles risk pooling in the centralization setting where the platform can make joint demand-substitution and inventory decisions. Despite the power of this control on the off-equilibrium path, we show that it is Pareto-improving for both the platform and the sellers under a mild condition. Furthermore, when the products are substitutable enough, the platform can achieve the centralization benchmark. On the contrary, if the products are not substitutable enough, the platform's service level to the customers may, in certain primitive regimes, decrease."
   },
   {
     "title": "Beyond Non-Degeneracy: Revisiting Certainty Equivalent Heuristic for Online Linear Programming",
-    "url": "https://arxiv.org/pdf/2501.01716",
+    "url": "https://arxiv.org/abs/2501.01716",
     "authors": "Wenjia Wang",
     "year": 2025,
     "bucket": "Preprint",
@@ -107,11 +105,11 @@ format:
     "status": "Under revision.",
     "awards": [],
     "teaser": "Is non-degeneracy really essential for CE to achieve low regret?",
-    "abstract": "The Certainty Equivalent (CE) heuristic is a widely-used algorithm for various dynamic resource allocation problems in OR and OM. Despite its popularity, existing theoretical guarantees of CE are limited to settings satisfying restrictive fluid regularity conditions, particularly, the non-degeneracy conditions, under the widely held belief that the violation of such conditions leads to performance deterioration and necessitates algorithmic innovation beyond CE. In this work, we conduct a refined performance analysis of CE within the general framework of online linear programming. We show that CE achieves uniformly near-optimal regret (up to a polylogarithmic factor in T) under only mild assumptions on the underlying distribution, without relying on any fluid regularity conditions. Our result implies that, contrary to prior belief, CE effectively beats the curse of degeneracy for a wide range of problem instances with continuous conditional reward distributions, highlighting the distinction of the problem’s structure between discrete and non-discrete settings. Our explicit regret bound interpolates between the mild $(\\log T)^2$ regime and the worst-case $\\sqrt{T}$ regime with a parameter $\\beta$ quantifying the minimal rate of probability accumulation of the conditional reward distributions, generalizing prior findings in the multisecretary setting. To achieve these results, we develop novel algorithmic analytical techniques. Drawing tools from the empirical processes theory, we establish strong concentration analysis of the solutions to random linear programs, leading to improved regret analysis under significantly relaxed assumptions. These techniques may find potential applications in broader online and offline stochastic decision-making contexts."
+    "abstract": "The Certainty Equivalent (CE) heuristic is a widely-used algorithm for various dynamic resource allocation problems in OR and OM. Despite its popularity, existing theoretical guarantees of CE are limited to settings satisfying restrictive fluid regularity conditions, particularly, the non-degeneracy conditions, under the widely held belief that the violation of such conditions leads to performance deterioration and necessitates algorithmic innovation beyond CE. In this work, we conduct a refined performance analysis of CE within the general framework of online linear programming. We show that CE achieves uniformly near-optimal regret (up to a polylogarithmic factor in T ) under only mild assumptions on the underlying distribution, without relying on any fluid regularity conditions. Our result implies that, contrary to prior belief, CE effectively beats the curse of degeneracy for a wide range of problem instances with continuous conditional reward distributions, highlighting the distinction of the problem’s structure between discrete and non-discrete settings. Our explicit regret bound interpolates between the mild $(\\log T)^2$ regime and the worst-case $\\sqrt{T}$ regime with a parameter $\\beta$ quantifying the minimal rate of probability accumulation of the conditional reward distributions, generalizing prior findings in the multisecretary setting. To achieve these results, we develop novel algorithmic analytical techniques. Drawing tools from the empirical processes theory, we establish strong concentration analysis of the solutions to random linear programs, leading to improved regret analysis under significantly relaxed assumptions. These techniques may find potential applications in broader online and offline stochastic decision-making contexts."
   },
   {
     "title": "Beating the Curse of Dimensionality in Optimal Stopping",
-    "url": "https://arxiv.org/pdf/1807.02227",
+    "url": "https://arxiv.org/abs/1807.02227",
     "authors": "David A. Goldberg",
     "year": 2018,
     "bucket": "Preprint",
@@ -126,12 +124,12 @@ format:
   },
   {
     "title": "Online Stochastic Packing with General Correlations",
-    "url": "https://arxiv.org/pdf/2508.13458",
+    "url": "https://arxiv.org/abs/2508.13458",
     "authors": "Sabri Cetin and David A. Goldberg",
     "year": 2025,
     "bucket": "Preprint",
     "rank": 3,
-    "status": "Under revision.",
+    "status": "Under review.",
     "teaser": "A constant-time approximation algorithm for online packing under arbitrary dependence.",
     "abstract": "There has been a growing interest in studying online stochastic packing under more general correlation structures, motivated by the complex data sets and models driving modern applications. Several past works either assume correlations are weak or have a particular structure, have a complexity scaling with the number of Markovian 'states of the world' (which may be exponentially large e.g. in the case of full history dependence), scale poorly with the horizon T, or make additional continuity assumptions. Surprisingly, we show that for all 𝜖, the online stochastic packing linear programming problem with general correlations (suitably normalized and with sparse columns) has an approximately optimal policy (with optimality gap $\\epsilon T$) whose per-decision runtime scales as the time to simulate a single sample path of the underlying stochastic process (assuming access to a Monte Carlo simulator), multiplied by a constant independent of the horizon or number of Markovian states.We derive analogous results for network revenue management, and online bipartite matching and independent set in bounded-degree graphs, by rounding. Our algorithms implement stochastic gradient methods in a novel on-the-fly/recursive manner for the associated massive deterministic-equivalent linear program on the corresponding probability space."
   },
@@ -142,7 +140,7 @@ format:
     "year": 2025,
     "bucket": "Published",
     "rank": 1,
-    "status": "<i><b>Management Science</b></i>, forthcoming. <a href='https://doi.org/10.1287/mnsc.2023.03550'>[link]</a>",
+    "status": "<i><b>Management Science</b></i>, forthcoming.",
     "awards": [
       { "type": "award", "text": "First Place, 2024 INFORMS JFIG Best Paper Competition" },
       { "type": "award", "text": "First Prize, 2024 CSAMSE Best Paper Award" },
@@ -159,10 +157,9 @@ format:
     "year": 2025,
     "bucket": "Published",
     "rank": 2,
-    "status": "<i><b>Operations Research</b></i>, forthcoming. <a href='https://doi.org/10.1287/opre.2024.0730'>[link]</a>",
+    "status": "<i><b>Operations Research</b></i>, forthcoming.",
     "awards": [
       { "type": "award", "text": "First Place, 2024 INFORMS RMP Jeff McGill Student Paper Competition (awarded to Akshit Kumar)" },
-      { "type": "award", "text": "Third Place, 2025 Michael H. Rothkopf Junior Research Paper Prize (awarded to Akshit Kumar)" },
       { "type": "other", "text": "Preliminary version in ACM EC'23 <a href='https://dl.acm.org/doi/10.1145/3580507.3597797'>[link]</a> | <a href= 'https://nickarnosti.com/blog/soar/'>Nick Arnosti's blog</a> "}
     ],
     "teaser": "A lightweight MPC-inspired algorithm with near-optimal matching performance.",
