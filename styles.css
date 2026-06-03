@@ -361,9 +361,14 @@ main.content {
   aspect-ratio: 4 / 5;
   display: block;
   height: 100%;
+  margin: 0;
   object-fit: cover;
   object-position: center 30%;
   width: 100%;
+}
+
+.portrait-panel .figure-img {
+  margin-bottom: 0;
 }
 
 .content-band,
@@ -504,6 +509,14 @@ main.content {
 
 .paper > * {
   grid-column: 2;
+}
+
+.paper:not([data-year]) {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.paper:not([data-year]) > * {
+  grid-column: 1;
 }
 
 .title {
