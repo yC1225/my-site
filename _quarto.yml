@@ -13,15 +13,13 @@ website:
       # - text: CV
       #   href: cv.qmd
   page-footer:
-    left: "© 2025 Yilun Chen"
+    left: "© 2026 Yilun Chen"
     # right: |
     #   Made with [Quarto](https://quarto.org)
 
 format:
   html:
     theme: cosmo
-      # light: cosmo
-      # dark: darkly
     css: styles.css    # Quarto compiles it automatically
     include-in-header:
       text: |

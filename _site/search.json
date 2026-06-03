@@ -11,7 +11,14 @@
     "href": "index.html",
     "title": "Yilun Chen",
     "section": "",
-    "text": "Yilun Chen（陈逸伦）\n\n Assistant Professor  School of Data Science, CUHK–Shenzhen\n\n\n     chenyilun at cuhk dot edu dot cn       322b Daoyuan Building  Google Scholar\n\n\n\n\n\n About\n\nI am an Assistant Professor in the School of Data Science at the Chinese University of Hong kong, Shenzhen. I received my Ph.D. degree in Operations Research from Cornell in 2021, advised by David A. Goldberg . I hold a B.S. in Mathematics from Yuanpei College, Peking University (2014). Before joining CUHK-Shenzhen, I spent 2021-2022 as a postdoctoral researcher at Columbia Business School, working with  Yash Kanoria . \n\n\n Research Interests\n\nI study how algorithms learn, optimize, and interact within complex operational environments. One line of my research develops efficient and provably near-optimal algorithms for sequential decision-making under uncertainty, spanning problems like optimal stopping, online resource allocation and dynamic matching. More recently, I have become interested in algorithmic interventions in interactive settings such as online marketplaces or service platforms. My works design novel mechanisms that internalize reactive feedback from platform participants to achieve system-wide efficiency, and shed light on the (often unintended) consequences of algorithmic adaptivity once deployed. \n\n\nSelected Awards\n\n\n\nINFORMS Junior Faculty Interest Group (JFIG) Best Paper Award, 2024\n\n\nChinese Scholars Association for Management Science and Engineering (CSAMSE) Best Paper Award, 2024\n\n\nINFORMS RMP Jeff McGill Student Paper Award (awarded to Akshit Kumar), 2024\n\n\nINFORMS George Nicholson Student Paper Competition, First Place, 2019"
+    "text": "Yilun Chen 陈逸伦\n\n\nAssistant Professor School of Data Science, The Chinese University of Hong Kong, Shenzhen\n\n\n chenyilun at cuhk dot edu dot cn  322b Daoyuan Building  Google Scholar\n\n\n\n\n\n\n\n\nAbout\n\n\nI am an Assistant Professor in the School of Data Science at the Chinese University of Hong Kong, Shenzhen. I received my Ph.D. in Operations Research from Cornell University in 2021, advised by David A. Goldberg. Before joining CUHK-Shenzhen, I was a postdoctoral researcher at Columbia Business School, working with Yash Kanoria. I hold a B.S. in Mathematics from Yuanpei College, Peking University.\n\n\n\n\nResearch\n\n\nMy research is in Operations Research, with interests at the intersection of economics, theoretical computer science, and statistics. I study sequential decision-making under uncertainty, online resource allocation, dynamic matching, and algorithmic/mechanism design questions that arise in platforms and marketplaces.\n\n\n\n\nSelected Awards\n\n\n\n2024 INFORMS Junior Faculty Interest Group Best Paper Award\n\n\n2024 Chinese Scholars Association for Management Science and Engineering Best Paper Award\n\n\n2024 INFORMS RMP Jeff McGill Student Paper Award, awarded to Akshit Kumar\n\n\n2019 INFORMS George Nicholson Student Paper Competition, First Place"
+  },
+  {
+    "objectID": "publication_bydate.html",
+    "href": "publication_bydate.html",
+    "title": "Yilun Chen",
+    "section": "",
+    "text": "Working Papers\n\n\n\n\nPublished and Accepted"
   },
   {
     "objectID": "publication.html",
@@ -26,33 +33,5 @@
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "Yilun Chen",
-    "section": "Research Interests",
-    "text": "Research Interests\n\n\nOnline optimization and learning under uncertainty\n\n\nDynamic matching and resource allocation algorithms\n\n\nPlatform and mechanism design\n\n\nAlgorithmic stability and information economics\n\n\nVerifiable analytics and zero-knowledge proof mechanisms"
-  },
-  {
-    "objectID": "index.html#awards",
-    "href": "index.html#awards",
-    "title": "Yilun Chen",
-    "section": "Awards",
-    "text": "Awards\n\n\nINFORMS Nicholson Best Student Paper Award\n\n\nINFORMS JFIG Paper Award\n\n\nCornell ORIE Ph.D. Research Excellence Award\n\n\nNational Scholarship, Peking University"
-  },
-  {
-    "objectID": "index.html#section",
-    "href": "index.html#section",
-    "title": "Yilun Chen",
-    "section": "",
-    "text": "Research Interests\n\n\n\nOnline optimization and learning under uncertainty\n\n\nDynamic matching and resource allocation\n\n\nPlatform & mechanism design\n\n\nAlgorithmic stability, info economics\n\n\nVerifiable analytics, zero-knowledge proofs\n\n\n\n Awards\n\n\n\nINFORMS Nicholson Best Student Paper Award\n\n\nINFORMS JFIG Paper Award\n\n\nCornell ORIE Ph.D. Research Excellence Award\n\n\nNational Scholarship, Peking University"
-  },
-  {
-    "objectID": "publication_bydate.html",
-    "href": "publication_bydate.html",
-    "title": "Yilun Chen",
-    "section": "",
-    "text": "Preprints / Working Papers\n\n\n\n\nPublished / Accepted Papers"
   }
 ]
