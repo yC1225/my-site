@@ -14,7 +14,7 @@ format:
 </div>
 <p class="appointment">
 Assistant Professor<br>
-School of Data Science, The Chinese University of Hong Kong, Shenzhen
+School of Data Science, CUHK-Shenzhen
 </p>
 
 <div class="profile-links" aria-label="Contact and academic profiles">
@@ -32,7 +32,7 @@ School of Data Science, The Chinese University of Hong Kong, Shenzhen
 <section class="home-section">
 <h2>About</h2>
 <p>
-I am an Assistant Professor in the School of Data Science at the Chinese University of Hong Kong, Shenzhen. I received my Ph.D. in Operations Research from Cornell University in 2021, advised by <a href="https://people.orie.cornell.edu/dag369/">David A. Goldberg</a>. Before joining CUHK-Shenzhen, I was a postdoctoral researcher at Columbia Business School, working with <a href="https://ykanoria.github.io/index.html">Yash Kanoria</a>. I hold a B.S. in Mathematics from Yuanpei College, Peking University.
+I am an Assistant Professor in the School of Data Science at CUHK-Shenzhen. I received my Ph.D. in Operations Research from Cornell University in 2021, advised by <a href="https://people.orie.cornell.edu/dag369/">David A. Goldberg</a>. Before joining CUHK-Shenzhen, I was a postdoctoral researcher at Columbia Business School, working with <a href="https://ykanoria.github.io/index.html">Yash Kanoria</a>. I hold a B.S. in Mathematics from Yuanpei College, Peking University.
 </p>
 </section>
 
