@@ -111,7 +111,7 @@ format:
     "abstract": "Motivated by matching platforms that match agents in a centralized manner, we study dynamic two-sided matching in a setting where both customers (demand) and service providers (supply) are heterogeneous and the pool of service providers is limited. We model heterogeneity on the two sides of the market by demand weight vectors drawn i.i.d. from some distribution, and supply feature vectors drawn i.i.d. from a (possibly) different distribution. The matching of a demand-supply pair generates a matching value that depends on their weight and feature vectors. We adopt a notion of regret, specifically the additive loss relative to the value (per match) achievable in the limiting hindsight optimum as our performance metric for matching policies. Simple myopic policies suffer non-vanishing regret in large markets. We propose a forward-looking supply-aware policy dubbed Simulate-Optimize-Assign-Repeat (SOAR) which balances between producing high match value for the current match and preserving valuable supply for future customers. We prove that SOAR achieves the optimal regret scaling under different assumptions on the demand and supply distributions. En-route to proving our guarantees we develop a novel framework for analyzing the performance of our SOAR policy which may be of broader interest. As a corollary of our techniques, we also resolve an open problem posed in Kanoria [2022]."
   },
 {
-    "title": "Beating the Curse of Dimensionality in Optimal Stopping",
+    "title": "Polynomial time algorithm for optimal stopping with fixed accuracy",
     "url": "https://arxiv.org/pdf/1807.02227",
     "authors": "David A. Goldberg",
     "year": 2026,
