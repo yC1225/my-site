@@ -67,21 +67,6 @@ format:
     "abstract": "The Certainty Equivalent (CE) heuristic is a widely-used algorithm for various dynamic resource allocation problems in OR and OM. Despite its popularity, existing theoretical guarantees of CE are limited to settings satisfying restrictive fluid regularity conditions, particularly, the non-degeneracy conditions, under the widely held belief that the violation of such conditions leads to performance deterioration and necessitates algorithmic innovation beyond CE. In this work, we conduct a refined performance analysis of CE within the general framework of online linear programming. We show that CE achieves uniformly near-optimal regret (up to a polylogarithmic factor in T) under only mild assumptions on the underlying distribution, without relying on any fluid regularity conditions. Our result implies that, contrary to prior belief, CE effectively beats the curse of degeneracy for a wide range of problem instances with continuous conditional reward distributions, highlighting the distinction of the problem’s structure between discrete and non-discrete settings. Our explicit regret bound interpolates between the mild $(\\log T)^2$ regime and the worst-case $\\sqrt{T}$ regime with a parameter $\\beta$ quantifying the minimal rate of probability accumulation of the conditional reward distributions, generalizing prior findings in the multisecretary setting. To achieve these results, we develop novel algorithmic analytical techniques. Drawing tools from the empirical processes theory, we establish strong concentration analysis of the solutions to random linear programs, leading to improved regret analysis under significantly relaxed assumptions. These techniques may find potential applications in broader online and offline stochastic decision-making contexts."
   },
   {
-    "title": "Beating the Curse of Dimensionality in Optimal Stopping",
-    "url": "https://arxiv.org/pdf/1807.02227",
-    "authors": "David A. Goldberg",
-    "year": 2018,
-    "bucket": "Preprint",
-    "rank": 6,
-    "status": "Under revision.",
-    "awards": [
-      { "type": "award", "text": "First Place, 2019 INFORMS Nicholson Student Paper Competition" },
-      { "type": "award", "text": "Finalist, 2018 INFORMS Section on Finance Student Best Paper Award" }
-    ],
-    "teaser": "PTAS for optimal stopping under arbitrary dependence.",
-    "abstract": "The optimal stopping (OS) problem is important to multiple academic communities and applications. Modern OS tasks often have long horizon and complicated, high-dimensional dynamics, making them especially challenging. Standard dynamic programming (DP) formulation has computational cost scaling exponentially in the horizon and the underlying dimension, suffering from the curse of dimensionality. In this work, we develop a novel expansion representation of the optimal stopping value that deviates from the DP formulation. Truncating this expansion yields a simulation-based algorithm that returns an  -optimal solution (both stopping policies and approximate optimal values) with computational complexity scaling polynomially in the time horizon and the underlying dimension. Our approach is closely related to the martingale duality of OS, which may be of independent theoretical interest."
-  },
-  {
     "title": "Online Stochastic Packing with General Correlations",
     "url": "https://arxiv.org/pdf/2508.13458",
     "authors": "Sabri Cetin and David A. Goldberg",
@@ -124,6 +109,21 @@ format:
     ],
     "teaser": "A lightweight MPC-inspired algorithm with near-optimal matching performance.",
     "abstract": "Motivated by matching platforms that match agents in a centralized manner, we study dynamic two-sided matching in a setting where both customers (demand) and service providers (supply) are heterogeneous and the pool of service providers is limited. We model heterogeneity on the two sides of the market by demand weight vectors drawn i.i.d. from some distribution, and supply feature vectors drawn i.i.d. from a (possibly) different distribution. The matching of a demand-supply pair generates a matching value that depends on their weight and feature vectors. We adopt a notion of regret, specifically the additive loss relative to the value (per match) achievable in the limiting hindsight optimum as our performance metric for matching policies. Simple myopic policies suffer non-vanishing regret in large markets. We propose a forward-looking supply-aware policy dubbed Simulate-Optimize-Assign-Repeat (SOAR) which balances between producing high match value for the current match and preserving valuable supply for future customers. We prove that SOAR achieves the optimal regret scaling under different assumptions on the demand and supply distributions. En-route to proving our guarantees we develop a novel framework for analyzing the performance of our SOAR policy which may be of broader interest. As a corollary of our techniques, we also resolve an open problem posed in Kanoria [2022]."
+  },
+{
+    "title": "Beating the Curse of Dimensionality in Optimal Stopping",
+    "url": "https://arxiv.org/pdf/1807.02227",
+    "authors": "David A. Goldberg",
+    "year": 2026,
+    "bucket": "Accepted",
+    "rank": 6,
+    "status": "<i><b>Stochastic Systems</b></i>, forthcoming.",
+    "awards": [
+      { "type": "award", "text": "First Place, 2019 INFORMS Nicholson Student Paper Competition" },
+      { "type": "award", "text": "Finalist, 2018 INFORMS Section on Finance Student Best Paper Award" }
+    ],
+    "teaser": "PTAS for optimal stopping under arbitrary dependence.",
+    "abstract": "The optimal stopping (OS) problem is important to multiple academic communities and applications. Modern OS tasks often have long horizon and complicated, high-dimensional dynamics, making them especially challenging. Standard dynamic programming (DP) formulation has computational cost scaling exponentially in the horizon and the underlying dimension, suffering from the curse of dimensionality. In this work, we develop a novel expansion representation of the optimal stopping value that deviates from the DP formulation. Truncating this expansion yields a simulation-based algorithm that returns an  -optimal solution (both stopping policies and approximate optimal values) with computational complexity scaling polynomially in the time horizon and the underlying dimension. Our approach is closely related to the martingale duality of OS, which may be of independent theoretical interest."
   }
 ]
 </script>
