@@ -84,7 +84,7 @@ format:
     "year": 2025,
     "bucket": "Published",
     "rank": 1,
-    "status": "<i><b>Management Science</b></i>, forthcoming. <a href='https://doi.org/10.1287/mnsc.2023.03550'>[link]</a>",
+    "status": "<i><b>Management Science</b></i>. <a href='https://doi.org/10.1287/mnsc.2023.03550'>[link]</a>",
     "awards": [
       { "type": "award", "text": "First Place, 2024 INFORMS JFIG Best Paper Competition" },
       { "type": "award", "text": "First Prize, 2024 CSAMSE Best Paper Award" },
@@ -101,7 +101,7 @@ format:
     "year": 2025,
     "bucket": "Published",
     "rank": 2,
-    "status": "<i><b>Operations Research</b></i>, forthcoming. <a href='https://doi.org/10.1287/opre.2024.0730'>[link]</a>",
+    "status": "<i><b>Operations Research</b></i>. <a href='https://doi.org/10.1287/opre.2024.0730'>[link]</a>",
     "awards": [
       { "type": "award", "text": "First Place, 2024 INFORMS RMP Jeff McGill Student Paper Competition (awarded to Akshit Kumar)" },
       { "type": "award", "text": "Third Place, 2025 Michael H. Rothkopf Junior Research Paper Prize (awarded to Akshit Kumar)" },
