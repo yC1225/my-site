@@ -17,8 +17,7 @@ format:
 
 
   {
-    "title": "Characterizing Bias in Post-Bandit Inference under Index
-Algorithms",
+    "title": "Characterizing Bias in Post-Bandit Inference under Index Algorithms",
     "url": "https://arxiv.org/pdf/2608.01069v1",
     "authors": "Lisu Wang and Jiaqi Lu",
     "year": 2026,
