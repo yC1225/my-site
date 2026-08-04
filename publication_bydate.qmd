@@ -14,13 +14,30 @@ format:
 
 <script type="application/json" id="papers-data">
 [
+
+
+  {
+    "title": "Characterizing Bias in Post-Bandit Inference under Index
+Algorithms",
+    "url": "https://arxiv.org/pdf/2608.01069v1",
+    "authors": "Lisu Wang and Jiaqi Lu",
+    "year": 2026,
+    "bucket": "Preprint",
+    "rank": 1,
+    "status": "Working paper.",
+    "awards": [
+        {}
+    ],
+    "teaser": "A precise quantification of sample mean bias of data collected from bandit experiments.",
+    "abstract": "Bandit algorithms generate data for downstream inference, but adaptive sampling biases post-bandit sample means. We analyze this bias for stable index algorithms, including \texttt{UCB1} and its generalizations, and derive sharp leading-order expressions for the sample-mean bias and expected $Z$-statistic. Our characterization reveals the algorithmic origin of bias through a key index-function-dependent quantity, which we term \emph{effective exploration rate}. For example, under \texttt{UCB1}, the effective exploration rate is of order $\sqrt{\log T}$, and the standardized bias of any arm (that is not uniquely optimal) decays at the extremely slow rate $1/\sqrt{\log T}$. We also show how the choice of the index function affects both regret and bias, which reveals a regret-bias trade-off: more exploratory algorithm reduces bias but increases regret. Our sharp characterization for bias uses a novel empirical fluid approximation of the algorithm's sampling dynamics, which may be of independent interest."
+  },
   {
     "title": "Bandit Allocational Instability",
     "url": "https://arxiv.org/pdf/2602.07472",
     "authors": "Jiaqi Lu",
     "year": 2026,
     "bucket": "Preprint",
-    "rank": 1,
+    "rank": 2,
     "status": "Under review.",
     "awards": [
         { "type": "other", "text": "Preliminary version in ACM EC'26" }
@@ -34,7 +51,7 @@ format:
     "authors": "Jiaqi Lu",
     "year": 2025,
     "bucket": "Preprint",
-    "rank": 2,
+    "rank": 3,
     "status": "Working paper.",
     "awards": [],
     "teaser": "How far does bandit-collected data deviate from i.i.d.-sampling?",
@@ -46,7 +63,7 @@ format:
     "authors": "Jiaqi Lu",
     "year": 2024,
     "bucket": "Preprints",
-    "rank": 5,
+    "rank": 6,
     "status": "Under revision.",
     "awards": [
       { "type": "other", "text": "Preliminary version in ACM EC'24 <a href='https://dl.acm.org/doi/10.1145/3670865.3673568'>[link]</a>" }
@@ -60,7 +77,7 @@ format:
     "authors": "Wenjia Wang",
     "year": 2025,
     "bucket": "Preprint",
-    "rank": 4,
+    "rank": 5,
     "status": "Under revision.",
     "awards": [],
     "teaser": "Is non-degeneracy really essential for CE to achieve low regret?",
@@ -72,7 +89,7 @@ format:
     "authors": "Sabri Cetin and David A. Goldberg",
     "year": 2025,
     "bucket": "Preprint",
-    "rank": 3,
+    "rank": 4,
     "status": "Under revision.",
     "teaser": "A constant-time approximation algorithm for online packing under arbitrary dependence.",
     "abstract": "There has been a growing interest in studying online stochastic packing under more general correlation structures, motivated by the complex data sets and models driving modern applications. Several past works either assume correlations are weak or have a particular structure, have a complexity scaling with the number of Markovian 'states of the world' (which may be exponentially large e.g. in the case of full history dependence), scale poorly with the horizon T, or make additional continuity assumptions. Surprisingly, we show that for all 𝜖, the online stochastic packing linear programming problem with general correlations (suitably normalized and with sparse columns) has an approximately optimal policy (with optimality gap $\\epsilon T$) whose per-decision runtime scales as the time to simulate a single sample path of the underlying stochastic process (assuming access to a Monte Carlo simulator), multiplied by a constant independent of the horizon or number of Markovian states.We derive analogous results for network revenue management, and online bipartite matching and independent set in bounded-degree graphs, by rounding. Our algorithms implement stochastic gradient methods in a novel on-the-fly/recursive manner for the associated massive deterministic-equivalent linear program on the corresponding probability space."
