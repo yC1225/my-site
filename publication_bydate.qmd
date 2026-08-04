@@ -25,9 +25,6 @@ Algorithms",
     "bucket": "Preprint",
     "rank": 1,
     "status": "Working paper.",
-    "awards": [
-        {}
-    ],
     "teaser": "A precise quantification of sample mean bias of data collected from bandit experiments.",
     "abstract": "Bandit algorithms generate data for downstream inference, but adaptive sampling biases post-bandit sample means. We analyze this bias for stable index algorithms, including \texttt{UCB1} and its generalizations, and derive sharp leading-order expressions for the sample-mean bias and expected $Z$-statistic. Our characterization reveals the algorithmic origin of bias through a key index-function-dependent quantity, which we term \emph{effective exploration rate}. For example, under \texttt{UCB1}, the effective exploration rate is of order $\sqrt{\log T}$, and the standardized bias of any arm (that is not uniquely optimal) decays at the extremely slow rate $1/\sqrt{\log T}$. We also show how the choice of the index function affects both regret and bias, which reveals a regret-bias trade-off: more exploratory algorithm reduces bias but increases regret. Our sharp characterization for bias uses a novel empirical fluid approximation of the algorithm's sampling dynamics, which may be of independent interest."
   },
