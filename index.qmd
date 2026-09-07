@@ -39,7 +39,7 @@ I am an Assistant Professor in the School of Data Science at CUHK-Shenzhen. Prev
 <section class="home-section">
 <h2>Research</h2>
 <p>
-My research is in Operations Research, with interests at the intersection of economics, theoretical computer science, and statistics. I study sequential decision-making under uncertainty, online resource allocation, dynamic matching, and algorithmic/mechanism design questions that arise in platforms and marketplaces.
+My research is in Operations Research, particularly stochastic modeling. I often find myself drawn to problems at the intersection of economics, theoretical computer science, and statistics, where uncertainty, incentives, and algorithmic decisions interact. My work spans sequential decision-making under uncertainty, online resource allocation, dynamic matching, and algorithmic/mechanism design, often with applications to platforms and marketplaces.
 </p>
 </section>
 
