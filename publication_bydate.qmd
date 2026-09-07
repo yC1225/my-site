@@ -114,7 +114,7 @@ format:
     "authors": "David A. Goldberg",
     "year": 2026,
     "bucket": "Accepted",
-    "rank": 3,
+    "rank": 4,
     "status": "<i><b>Stochastic Systems</b></i>, accepted.",
     "awards": [
       { "type": "award", "text": "First Place, 2019 INFORMS Nicholson Student Paper Competition" },
@@ -129,7 +129,7 @@ format:
     "authors": "Jiaqi Lu",
     "year": 2026,
     "bucket": "Accepted",
-    "rank": 4,
+    "rank": 3,
     "status": "<i><b>Operations Research</b></i>, accepted.",
     "awards": [
       { "type": "other", "text": "Preliminary version in ACM EC'24 <a href='https://dl.acm.org/doi/10.1145/3670865.3673568'>[link]</a>" }
