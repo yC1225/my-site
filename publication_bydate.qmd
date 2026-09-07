@@ -115,7 +115,7 @@ format:
     "year": 2026,
     "bucket": "Accepted",
     "rank": 4,
-    "status": "<i><b>Stochastic Systems</b></i>, accepted.",
+    "status": "<i><b>Stochastic Systems</b></i>. <a href='https://doi.org/10.1287/stsy.2024.0075'>[link]</a>",
     "awards": [
       { "type": "award", "text": "First Place, 2019 INFORMS Nicholson Student Paper Competition" },
       { "type": "award", "text": "Finalist, 2018 INFORMS Section on Finance Student Best Paper Award" }
