@@ -127,7 +127,7 @@ format:
     "title": "Managing Newsvendors: A Demand Mechanism",
     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4727705",
     "authors": "Jiaqi Lu",
-    "year": 2024,
+    "year": 2026,
     "bucket": "Accepted",
     "rank": 4,
     "status": "<i><b>Operations Research</b></i>, accepted.",
