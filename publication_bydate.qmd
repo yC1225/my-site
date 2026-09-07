@@ -124,7 +124,7 @@ format:
     "abstract": "The optimal stopping (OS) problem is important to multiple academic communities and applications. Modern OS tasks often have long horizon and complicated, high-dimensional dynamics, making them especially challenging. Standard dynamic programming (DP) formulation has computational cost scaling exponentially in the horizon and the underlying dimension, suffering from the curse of dimensionality. In this work, we develop a novel expansion representation of the optimal stopping value that deviates from the DP formulation. Truncating this expansion yields a simulation-based algorithm that returns an  -optimal solution (both stopping policies and approximate optimal values) with computational complexity scaling polynomially in the time horizon and the underlying dimension. Our approach is closely related to the martingale duality of OS, which may be of independent theoretical interest."
   },
 {
-    "title": "Managing Newsvendors: A Demand Mechanism",
+    "title": "Managing Newsvendors via Demand Shifting",
     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4727705",
     "authors": "Jiaqi Lu",
     "year": 2026,
