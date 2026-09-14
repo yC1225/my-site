@@ -32,7 +32,7 @@ School of Data Science, CUHK-Shenzhen
 <section class="home-section">
 <h2>About</h2>
 <p>
-I am an Assistant Professor in the School of Data Science at CUHK-Shenzhen. Previously, I was a postdoctoral researcher at Columbia Business School. I received my Ph.D. in Operations Research from Cornell University and my B.S. in Mathematics from Yuanpei College, Peking University.
+I am an Assistant Professor in the School of Data Science at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen). Previously, I was a postdoctoral researcher at Columbia Business School, where I was hosted by Yash Kanoria. I received my Ph.D. in Operations Research from Cornell University, where I was advised by David Goldberg, and my B.S. in Mathematics from Yuanpei College, Peking University.
 </p>
 </section>
 
