@@ -27,8 +27,8 @@ format:
     "abstract": "We study stochastic dynamic resource allocation with continuously distributed rewards. We develop an analytical framework that bounds the additive performance loss of threshold policies directly against the dynamic-programming (DP) optimum. The framework reduces this comparison to controlling the Bellman residual of a tractable value approximation and the discrepancy between its induced thresholds and those used by the policy. Applying this framework, we show that the classical certainty-equivalent (CE) policy incurs a constant expected loss, independent of the time horizon, under suitable regularity and non-degeneracy conditions. We showcase the power of this framework in the multi-secretary problem with our guarantee covering i.i.d., independent but non-identically distributed, and Markov-modulated rewards. We also provide an extension to online linear programming problem, demonstrating its capability of handling multi-dimensional problems beyond multi-secretary. Together, these results sharpen our understanding of CE and establish its near-optimality for dynamic resource allocation problems across a substantially broader class of stochastic models."
   },
   {
-    "title": "Characterizing Bias in Post-Bandit Inference under Index Algorithms",
-    "url": "https://arxiv.org/pdf/2608.01069v1",
+    "title": "Sharp Characterizatioin of Bias in Post-Bandit Inference",
+    "url": "https://arxiv.org/pdf/2608.01069v2",
     "authors": "Lisu Wang and Jiaqi Lu",
     "year": 2026,
     "bucket": "Preprint",
