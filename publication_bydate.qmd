@@ -47,7 +47,7 @@ format:
     "year": 2026,
     "bucket": "Preprint",
     "rank": 2,
-    "status": "Under review.",
+    "status": "Under revision.",
     "awards": [
         { "type": "other", "text": "Preliminary version in ACM EC'26" }
     ],
